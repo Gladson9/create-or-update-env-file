@@ -1,0 +1,29 @@
+{
+  "name": "create-or-update-env-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --c eslint.config.js",
+    "format:check": "prettier --check src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gladson Regan Dsouza",
+  "license": "MIT",
+  "packageManager": "pnpm@8.11.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.2.5",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^7.1.0"
+  }
+}

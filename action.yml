@@ -1,8 +1,11 @@
 name: Create or update .env file
 description: Create or update .env file with the given key-value pairs
+branding:
+  icon: "lock"
+  color: "gray-dark"
 inputs:
   file-name:
-    description: "File name of the .env file. Default is .env"
+    description: "File name for the .env file. Default is .env"
     required: false
     default: ".env"
   directory-path:
